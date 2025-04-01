@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .globalpdg {
+        @apply xl:px-20 lg:px-10 md:px-10 sm:px-5 px-5;
+    }
+
+    .nav {
+        @apply flex justify-between items-center bg-fuchsia-400 font-bold border-b-2 border-ameclr;
+    }
+
+    .stickynav {
+        @apply flex justify-between items-center bg-fuchsia-400 font-bold fixed w-full top-0 border-b-2 border-ameclr;
+    }
+
+
+    .btn {
+        @apply bg-ameclr rounded-md px-2 py-2;
+    }
+
+    .outlinebtn {
+        @apply border-[2px] bg-none rounded-md px-2 py-2 border-ameclr;
+    }
+
+    .cardbdr {
+        @apply border-[3px] border-white rounded-xl hover:border-[#f2d705];
+    }
+
+    .griddiv {
+        @apply grid md:grid-cols-3 gap-5 mt-5;
+    }
+
+    .gridcard {
+        @apply flex flex-col p-5 gap-3;
+    }
+
+    .stepbdr {
+        @apply text-white bg-black rounded-md w-[70px] p-2 text-[15px];
+    }
+}
