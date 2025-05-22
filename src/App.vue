@@ -4,7 +4,7 @@
 
     <!-- -----------------------------------navigation----------------------------------- -->
 
-    <div class="font-font globalpdg nav ">     <!-- .stickynav for sticky nav bar-->
+    <div class="font-font globalpdg nav">     <!-- .stickynav for sticky nav bar-->
 
       <div class="w-[40px]  mt-2 mb-2">
         <img src="https://cdn-icons-png.flaticon.com/128/721/721671.png" alt="icon" />
@@ -331,7 +331,7 @@
 
     <!-- choose the right pricing -->
 
-    <div class="font-font globalpdg mt-[150px]"> 
+    <div class="font-font globalpdg mt-[150px] bg-[#EEEEEE]"> 
 
       <h3 class="text-center font-bold text-3xl"> Choose the right Pricing Plan </h3>
       <p class="text-[15px] text-center lg:w-[50%] md:w-[80%] w-full mx-auto mt-5"> Our pricing plans cater to diverse needs, offering flexible options to suit your budget and requirements. </p>
@@ -508,12 +508,10 @@
       </div>
 
     </div>
+    
+    <!-- ----------------------------------------------------------------------- -->
 
-  </body>
-
-  <!-- -------------------------------footer---------------------------------- -->
-  <footer class=" font-font">
-
+    <!-- -----------------------------footer------------------------------------------- -->
     <div class="globalpdg grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 justify-center gap-10 text-[15px] mt-20 mb-5 mx-5">
     
       <div>
@@ -571,8 +569,10 @@
 
     </div>
 
-    
-  </footer>
+
+  </body>
+
+  
   
 
 
